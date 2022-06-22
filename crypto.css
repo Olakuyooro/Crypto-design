@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100&display=swap');
+
+body{
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-family: 'Outfit', sans-serif;
+    background-color: hsl(217, 54%, 11%)
+    
+    
+    
+}
+
+
+.container{
+   background-color: hsl(216, 50%, 16%);
+    width:17%;
+    padding: 0.9em;
+    border-radius: 0.5em;
+    margin-top: 5em;
+   
+}
+
+.image-box{
+    position: relative;
+
+}
+
+.crystal{
+    max-width: 100%;
+    display: block;
+    border-radius: 0.5em;
+}
+
+.overlay{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: hsl(178, 100%, 50%);
+    opacity: 75%;
+    border-radius: 0.5em;
+    display: none;
+   
+}
+
+.image-box:hover .overlay{
+    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    cursor: pointer;
+}
+
+#eye{
+    opacity: 100%;
+}
+
+
+#equi{
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+    font-size: 0.8em;
+}
+
+#equi:hover{
+    color: hsl(178, 100%, 50%);
+}
+
+#para{
+    font-size: 0.7em;
+    font-weight: 400;
+    opacity: 70%;
+    color: white;
+    padding-bottom: 0.5em;
+}
+
+
+.info{
+    display: flex;
+    font-size: 0.6em;
+}
+
+.ether{
+    display: flex;
+    
+}
+
+.price{
+    color: hsl(178, 100%, 50%);
+    padding-top: 0.1em;
+    font-weight: 700;
+}
+
+#logeth{
+    margin-right: 0.5em;
+}
+
+
+.days{
+    color: white; 
+    padding-top: 0.1em;
+    font-weight: 400;
+    opacity: 70%;
+}
+
+.time{
+    margin-left: auto;
+    display: flex;
+}
+
+#logtime{
+    margin-right: 0.5em;
+}
+
+.line{
+    margin-top: 1.2em;
+}
+
+hr{
+    opacity: 8%;
+}
+
+
+footer{
+    margin-top: 0.5em;
+}
+
+.foot{
+    display: flex;
+}
+
+#avatar{
+    margin-right: 0.7em;
+    background-color: white;
+    border-radius: 2em;
+}
+
+.down{
+    margin-top: 0.5em;
+    font-size: 0.7em;
+    color: white;
+}
+
+#create{
+    opacity: 70%;
+}
+
+#jules{
+    font-weight: bold;
+    
+}
+
+#jules:hover{
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 768px) {
+    .container{
+        width: 70%;
+    }
+/* 
+    .crystal{
+        width: 90%;
+    }
+     */
+}
